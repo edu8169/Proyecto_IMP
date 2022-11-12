@@ -1,0 +1,6 @@
+2022-10-22 11:42:44.133 CDT [8136] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2022-10-20 09:37:25 CDT
+2022-10-22 11:42:51.665 CDT [8136] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2022-10-22 11:42:51.686 CDT [8136] LOG:  redo comienza en 0/93E9AA8
+2022-10-22 11:42:51.688 CDT [8136] LOG:  largo de registro no válido en 0/93E9B90: se esperaba 24, se obtuvo 0
+2022-10-22 11:42:51.690 CDT [8136] LOG:  redo listo en 0/93E9B58
+2022-10-22 11:42:51.910 CDT [7436] LOG:  el sistema de bases de datos está listo para aceptar conexiones

@@ -1,0 +1,10 @@
+2022-10-13 08:04:39.008 CDT [23192] LOG:  el sistema de bases de datos fue apagado en 2022-10-13 08:04:25 CDT
+2022-10-13 08:04:39.044 CDT [11240] LOG:  el sistema de bases de datos est� listo para aceptar conexiones
+2022-10-14 10:11:29.951 CDT [14492] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2022-10-14 10:11:29.951 CDT [14492] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=11
+	                                       FOR UPDATE NOWAIT

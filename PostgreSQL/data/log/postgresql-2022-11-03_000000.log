@@ -1,0 +1,7 @@
+2022-11-03 19:05:17.495 CST [6556] LOG:  se recibió petición de apagado rápido
+2022-11-03 19:05:17.517 CST [6556] LOG:  abortando transacciones activas
+2022-11-03 19:05:17.528 CST [7380] ERROR:  cancelando la sentencia debido a una petición del usuario
+2022-11-03 19:05:17.528 CST [7352] ERROR:  cancelando la sentencia debido a una petición del usuario
+2022-11-03 19:05:17.542 CST [6556] LOG:  proceso ayudante «logical replication launcher» (PID 7380) terminó con código de salida 1
+2022-11-03 19:05:17.565 CST [7324] LOG:  apagando
+2022-11-03 19:05:17.699 CST [6556] LOG:  el sistema de bases de datos está apagado

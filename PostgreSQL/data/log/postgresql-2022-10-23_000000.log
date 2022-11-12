@@ -1,0 +1,7 @@
+2022-10-23 17:18:24.353 CDT [7436] LOG:  se recibió petición de apagado rápido
+2022-10-23 17:18:24.374 CDT [7436] LOG:  abortando transacciones activas
+2022-10-23 17:18:24.385 CDT [10984] ERROR:  cancelando la sentencia debido a una petición del usuario
+2022-10-23 17:18:24.385 CDT [10968] ERROR:  cancelando la sentencia debido a una petición del usuario
+2022-10-23 17:18:24.396 CDT [7436] LOG:  proceso ayudante «logical replication launcher» (PID 10984) terminó con código de salida 1
+2022-10-23 17:18:24.414 CDT [10940] LOG:  apagando
+2022-10-23 17:18:24.581 CDT [7436] LOG:  el sistema de bases de datos está apagado

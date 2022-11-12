@@ -1,0 +1,8 @@
+2022-10-29 00:41:44.973 CDT [23524] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2022-10-29 00:41:44.973 CDT [23524] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT

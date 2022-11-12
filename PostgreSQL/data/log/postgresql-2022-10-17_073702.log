@@ -1,0 +1,21 @@
+2022-10-17 07:37:02.586 CDT [8984] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2022-10-16 23:33:02 CDT
+2022-10-17 07:37:33.645 CDT [8984] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2022-10-17 07:37:33.658 CDT [8984] LOG:  redo comienza en 0/80A1BC8
+2022-10-17 07:37:33.659 CDT [8984] LOG:  largo de registro no válido en 0/80A1CB0: se esperaba 24, se obtuvo 0
+2022-10-17 07:37:33.660 CDT [8984] LOG:  redo listo en 0/80A1C78
+2022-10-17 07:38:14.695 CDT [6904] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2022-10-17 07:39:13.492 CDT [15084] ERROR:  no se pudo bloquear un candado en la fila de la relaciÃ³n Â«ir_cronÂ»
+2022-10-17 07:39:13.492 CDT [15084] SENTENCIA:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2022-10-17 07:39:13.494 CDT [15084] ERROR:  transacciÃ³n abortada, las Ã³rdenes serÃ¡n ignoradas hasta el fin de bloque de transacciÃ³n
+2022-10-17 07:39:13.494 CDT [15084] SENTENCIA:  SELECT value FROM ir_translation
+	                       WHERE lang='es_MX' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')
+2022-10-18 09:50:01.059 CDT [19100] ERROR:  no se pudo bloquear un candado en la fila de la relaciÃ³n Â«ir_cronÂ»
+2022-10-18 09:50:01.059 CDT [19100] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT

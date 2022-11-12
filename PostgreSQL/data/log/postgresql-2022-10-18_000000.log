@@ -1,0 +1,12 @@
+2022-10-20 09:31:46.798 CDT [6904] LOG:  se recibiÛ peticiÛn de apagado r·pido
+2022-10-20 09:31:46.807 CDT [6904] LOG:  abortando transacciones activas
+2022-10-20 09:31:46.824 CDT [19100] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.828 CDT [16976] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.833 CDT [15084] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.856 CDT [6904] LOG:  proceso ayudante ´logical replication launcherª (PID 18508) terminÛ con cÛdigo de salida 1
+2022-10-20 09:31:46.859 CDT [18836] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.859 CDT [7064] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.859 CDT [19276] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:46.859 CDT [13708] FATAL:  terminando la conexi√≥n debido a una orden del administrador
+2022-10-20 09:31:47.022 CDT [15920] LOG:  apagando
+2022-10-20 09:31:47.139 CDT [6904] LOG:  el sistema de bases de datos est· apagado

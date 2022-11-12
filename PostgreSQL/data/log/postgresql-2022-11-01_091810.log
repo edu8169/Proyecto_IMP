@@ -1,0 +1,6 @@
+2022-11-01 09:18:10.406 CST [7392] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2022-10-31 23:14:54 CST
+2022-11-01 09:18:16.705 CST [7392] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2022-11-01 09:18:16.719 CST [7392] LOG:  redo comienza en 0/C8D6580
+2022-11-01 09:18:16.738 CST [7392] LOG:  largo de registro no válido en 0/C8D7878: se esperaba 24, se obtuvo 0
+2022-11-01 09:18:16.740 CST [7392] LOG:  redo listo en 0/C8D7840
+2022-11-01 09:18:16.940 CST [6520] LOG:  el sistema de bases de datos está listo para aceptar conexiones
