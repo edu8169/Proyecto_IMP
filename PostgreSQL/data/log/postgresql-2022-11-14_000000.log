@@ -1,0 +1,30 @@
+2022-11-16 07:57:06.597 CST [14440] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 07:57:06.597 CST [14440] DETALLE:  La llave (id)=(10) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 07:57:06.597 CST [14440] SENTENCIA:  DELETE FROM product_template WHERE id IN (10)
+2022-11-16 07:57:16.395 CST [33232] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 07:57:16.395 CST [33232] DETALLE:  La llave (id)=(10) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 07:57:16.395 CST [33232] SENTENCIA:  DELETE FROM product_template WHERE id IN (10)
+2022-11-16 07:59:45.179 CST [5564] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 07:59:45.179 CST [5564] DETALLE:  La llave (id)=(10) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 07:59:45.179 CST [5564] SENTENCIA:  DELETE FROM product_template WHERE id IN (10)
+2022-11-16 08:00:00.098 CST [3752] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 08:00:00.098 CST [3752] DETALLE:  La llave (id)=(14) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 08:00:00.098 CST [3752] SENTENCIA:  DELETE FROM product_template WHERE id IN (14)
+2022-11-16 08:00:02.934 CST [14440] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 08:00:02.934 CST [14440] DETALLE:  La llave (id)=(14) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 08:00:02.934 CST [14440] SENTENCIA:  DELETE FROM product_template WHERE id IN (14)
+2022-11-16 08:00:28.405 CST [3752] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 08:00:28.405 CST [3752] DETALLE:  La llave (id)=(11) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 08:00:28.405 CST [3752] SENTENCIA:  DELETE FROM product_template WHERE id IN (11)
+2022-11-16 08:00:53.793 CST [33232] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 08:00:53.793 CST [33232] DETALLE:  La llave (id)=(11) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 08:00:53.793 CST [33232] SENTENCIA:  DELETE FROM product_template WHERE id IN (11)
+2022-11-16 08:04:01.608 CST [33232] ERROR:  update o delete en «product_template» viola la llave foránea «mrp_bom_product_tmpl_id_fkey» en la tabla «mrp_bom»
+2022-11-16 08:04:01.608 CST [33232] DETALLE:  La llave (id)=(10) todavía es referida desde la tabla «mrp_bom».
+2022-11-16 08:04:01.608 CST [33232] SENTENCIA:  DELETE FROM product_template WHERE id IN (26, 21, 10, 27, 14, 25, 22, 3, 1, 2, 4, 5, 20, 19, 11, 24, 23)
+2022-11-16 08:14:59.425 CST [14212] ERROR:  update o delete en «pos_config» viola la llave foránea «pos_session_config_id_fkey» en la tabla «pos_session»
+2022-11-16 08:14:59.425 CST [14212] DETALLE:  La llave (id)=(1) todavía es referida desde la tabla «pos_session».
+2022-11-16 08:14:59.425 CST [14212] SENTENCIA:  DELETE FROM pos_config WHERE id IN (1)
+2022-11-16 08:15:01.704 CST [33232] ERROR:  update o delete en «pos_config» viola la llave foránea «pos_session_config_id_fkey» en la tabla «pos_session»
+2022-11-16 08:15:01.704 CST [33232] DETALLE:  La llave (id)=(1) todavía es referida desde la tabla «pos_session».
+2022-11-16 08:15:01.704 CST [33232] SENTENCIA:  DELETE FROM pos_config WHERE id IN (1)
